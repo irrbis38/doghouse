@@ -6,8 +6,8 @@
   background-color: #f5c678;
   cursor: pointer;
   transition: background-color 0.2s ease-out;
-}
 
-.btn:hover {
-  background-color: #f8d568;
+  &:hover {
+    background-color: #f8d568;
+  }
 }
