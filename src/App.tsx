@@ -1,7 +1,9 @@
 import React from 'react';
 
+import { LoginPage } from './pages/LoginPage/LoginPage';
+
 import './App.css';
 
-const App = () => <div className='App'>App</div>;
+const App = () => <LoginPage />;
 
 export default App;
