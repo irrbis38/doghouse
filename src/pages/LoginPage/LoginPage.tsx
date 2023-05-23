@@ -3,16 +3,16 @@ import React from 'react';
 import { Button } from '../../common/buttons';
 import { Input } from '../../common/fields';
 
-import './LoginPage.scss';
+import style from './LoginPage.module.scss';
 
 export const LoginPage = () => {
   const [formValues, setFormValues] = React.useState({ username: '', password: '' });
 
   return (
-    <div className='login-page'>
-      <div className='login-page__container'>
+    <div className={style.login}>
+      <div className={style.login__container}>
         <div>header</div>
-        <div className='login-page__form '>
+        <div className={style.login__form}>
           <Input
             type='text'
             isError

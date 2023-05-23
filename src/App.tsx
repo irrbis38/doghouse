@@ -2,7 +2,7 @@ import React from 'react';
 
 import { LoginPage } from './pages/LoginPage/LoginPage';
 
-import './App.css';
+import './App.scss';
 
 const App = () => <LoginPage />;
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './Button.scss';
+import sytle from './Button.module.scss';
 
 interface ButtonProps extends React.HTMLProps<HTMLButtonElement> {}
 
 export const Button: React.FC<ButtonProps> = ({ children }) => (
-  <button className='btn'>{children}</button>
+  <button className={sytle.btn}>{children}</button>
 );
