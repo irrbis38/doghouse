@@ -11,7 +11,7 @@ export const LoginPage = () => {
   return (
     <div className={style.login}>
       <div className={style.login__container}>
-        <div>header</div>
+        <header className={style.login__header}>DogHouse</header>
         <div className={style.login__form}>
           <Input
             type='text'
@@ -25,7 +25,7 @@ export const LoginPage = () => {
           />
           <Input
             type='password'
-            isError={false}
+            isError
             helperText='error'
             placeholder='password'
             value={formValues.password}
@@ -36,6 +36,9 @@ export const LoginPage = () => {
           <div>
             <Button>SignIn</Button>
           </div>
+        </div>
+        <div className={style.login__signup}>
+          <a href='##'>Create new account</a>
         </div>
       </div>
     </div>
